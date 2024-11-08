@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="faruq.css">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <form action="/submit" method="POST">
+        <header>
+            <h1>STUDENT FORM</h1> 
+        </header>               
+        <div>
+            <label for="name">NAME</label><br>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div>
+            <label for="email">EMAIL</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div>
+            <label for="dob">DATE OF BIRTH</label><br>  
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        
+        <div>
+            <label for="department">DEPARTMENT</label><br>
+            <select id="department" name="department" required>
+                <option value="science">SCIENCE</option>
+                <option value="commercial">COMMERCIAL</option>
+                <option value="art">ART</option>
+            </select>
+        </div>
+        
+        <div>
+            <form action="https://thankyo.mobirisesite.com/" method="post" id="myForm">
+                <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
